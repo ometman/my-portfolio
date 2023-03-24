@@ -29,29 +29,33 @@
     height: 4rem;
     margin: 0 auto;
     background-color: #fff;
-  }
-
-  .nav-bar {
-    position: relative;
-    padding: 0 5%;
-    width: auto;
-    margin: 0 auto;
-    height: 3.2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    gap: 60%;
   }
 
   .logo {
     position: relative;
     width: auto;
     height: auto;
+    padding: 0 5%;
     font-family: "Poppins", sans-serif;
     color: #0f27ff;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
+    order: 0;
+  }
+
+  .nav-bar {
+    position: relative;
+    padding: 0 5%;
+    width: auto;
+    margin: 0;
+    height: auto;
+    order: 1;
   }
 
   .mobile-menu-icon-wrapper {
