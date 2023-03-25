@@ -190,7 +190,7 @@
   .pr-photo1,
   .pr-photo2,
   .pr-photo3,
-  .pr-photo3 {
+  .pr-photo4 {
     position: relative;
     width: 100%;
     height: 100%;
@@ -421,7 +421,7 @@
   ul.skill-lang-selector2 {
     order: 2;
   }
-  
+
   .skill-name {
     color: #000;
     margin: 0;
@@ -500,10 +500,6 @@
 
   .skills-line2 {
     order: 4;
-  }
-
-  a:link {
-    text-decoration: none;
   }
 
   .pr-tag:hover,
