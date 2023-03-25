@@ -191,90 +191,70 @@
 <section class="about-me-section">
     <!--Top begins here - Text intro social connect , social icons and action button-->
 
-                <div class="about-me-top">
-                    <h2 class="about-primary-text">
+            <div class="about-me-top">
+                    <h2 class="primary-text abt-primary-text">
                         About <br> Myself
                     </h2> 
-                    <p class="about-intro-text">
+                    <p class="intro-text">
                         Hello, I&#39;m a software developer! <br> I can help you build a software product, feature or website. 
                         Take a look at some of my works and experience! If you like what you see and 
                         have a project, don&#39;t hestiate to contact me.
                     </p> 
                     <!--social media -->
-                    <p class="about-social-media-text">
+                    <p class="social-media-text">
                         LET&#39;S CONNECT 
                     </p>
                     <!--social media icons-->
-                    <ul class="about-social-media-icons">
-                        <li><a href="#"><img class="social-icon" src="images/twitter-icon.png" alt="twitter icon"></a></li>
-                        <li><a href="#"><img class="social-icon" src="images/linkedin-icon.png" alt="linkedin icon"></a></li>   
-                        <li><a href="#"><img class="social-icon" src="images/medium-icon.png" alt="medium icon"></a></li>   
-                        <li><a href="#"><img class="social-icon" src="images/github-icon.png" alt="github icon"></a></li>    
-                        <li><a href="#"><img class="social-icon" src="images/vic-icon.png" alt="vic icon"></a></li>    
+                    <ul class="social-media-icons">
+                        <li><a href="#"><img class="social-icon" src="./images/icons/twitter-icon.png" alt="twitter icon"></a></li>
+                        <li><a href="#"><img class="social-icon" src="./images/icons/linkedin-icon.png" alt="linkedin icon"></a></li>   
+                        <li><a href="#"><img class="social-icon" src="./images/icons/medium-icon.png" alt="medium icon"></a></li>   
+                        <li><a href="#"><img class="social-icon" src="./images/icons/github-icon.png" alt="github icon"></a></li>    
+                        <li><a href="#"><img class="social-icon" src="./images/icons/vic-icon.png" alt="vic icon"></a></li>    
                     </ul>
                      <!--This place must be checked-->
-                    <p class="about-resume-action-box">
-                        <a href="#" class="about-resume-action"> 
-                        See Resume 
+                    <div class="about-resume-action-box">
+                        <a href="#" class="about-resume-action-button"> 
+                            See Resume 
                         </a>
-                    </p> 
-                </div>
-                <!--about me down begins here-->
-                <div class="about-me-down">
-                <!--Create languages link button pointing downwards -->
-                    <ul class="skill-item-selector no-style">
-                         
-                            <li><a href="#"> <p class="skill-pos">Languages</p></a> </li> 
+                    </div> 
+            </div>
+            <!--about me down begins here-->
+            <div class="about-me-down">
+                <!--skills -->
+                <ul class="skill-lang-selector1 no-style">
+                    <li class="skill-name">
+                        <a href="#" class="skill-link"> Languages</a>
+                    </li>
+                    <li class="skill-link">
+                        <a href="#"><img class="skill-icon" src="./images/icons/button-icon-dn.png" alt="language item selector button"></a>
+                    </li>
+                </ul>
+            
+                <!--languages-->
+                <ul class="language-list">
+                    <li class="js-lang"> <img class="select-0 lang-img" src="./images/icons/javascript-icon.png" alt="javasript icon"> Javascript</li>
                         
-                           
-                        <li>
-                         <a href="#">   <img class="item-icon" src="./images/icons/button-icon-dn.png" alt="language item selector button"></a>
+                    <li class="html-lang"> <img class="select-0 lang-img"src="./images/icons/html5-icon.png" alt="html icon"> HTML</li>
+                        
+                    <li class="css-lang"><img class="select-0 lang-img"src="./images/icons/css3-icon.png" alt="css icon"> CSS</li>
+                        
+                </ul>
+                <!-- skill 2-->
+                <ul class="skill-lang-selector2 no-style">
+                       
+                        <li class="skill-name">
+                           <a href="#" class="skill-link">Skill</a>
                         </li>
-                         
-                    </ul>
-    <!--Add languages here -->
-
-                    <ul class="language-list order-1">
-                        <li class="lang-size js-lang js-icon select-0"> <img class="select-0 lang-img" src="./images/icons/javascript-icon.png" alt="javasript icon"> Javascript</li>
-                            
-                        <li class="lang-size html-lang html-icon order-1"> <img class="select-0 lang-img"src="./images/icons/html5-icon.png" alt="html icon"> HTML</li>
-                            
-                        <li class="lang-size css-lang css-icon order-2"><img class="select-0 lang-img"src="./images/icons/css3-icon.png" alt="css icon"> CSS</li>
-                               
-                    </ul>            
-            <!--Put frameworks and skills here to complete skills section-->
-                   <div class="frameworks-view order-2">
-                        <ul class="skill-item-selector no-style ">
-                            
-                                <li class="select-size ">
-                                  <a href="#"> <p class="skill-pos"> Frameworks</p></a>
-                                </li>
-                            
-                            
-                                <li class="select-size">
-                               <a href="#">     <img class="item-icon" src="./images/icons/button-icon-rt.png" alt="frameworks selector button"></a> 
-                                </li>
-                            
-                        </ul>
-
-                    </div>
-                    <div class="skills-view order-3">
-                        <ul class="skill-item-selector no-style">
-                           
-                            <li class="select-size">
-                               <a href="#"><p class="skill-pos">Skill</p></a>
-                            </li>
-                            
-                            
-                                <li>
-                                <a href="#"><img class="item-icon" src="./images/icons/button-icon-rt.png" alt="skill selector button"></a> 
-                                </li>
-                            </a> 
-                        </ul>
                         
-                    </div>
-                </div> 
-
+                        
+                        <li class="skill-link">
+                            <a href="#"><img class="skill-icon" src="./images/icons/button-icon-rt.png" alt="skill selector button"></a> 
+                        </li>
+                </ul>
+                    
+                <!-- </div>   -->
+            </div>
             </section>        
         
     </body>
