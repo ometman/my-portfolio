@@ -296,7 +296,7 @@
     color: #0f27ff;
   }
 
-  .pr-tag:link {
+  .pr-tag {
     position: relative;
     width: auto;
     height: auto;
@@ -327,7 +327,7 @@
   }
 
   .about-resume-action-box {
-    margin-left: 32px;
+    margin-left: 5%;
   }
 
   .pr-call-to-action-button,
@@ -364,7 +364,7 @@
     margin: 0 auto;
     padding-bottom: 336px;
     padding-top: 168px;
-    width: 0 auto;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -488,17 +488,33 @@
     padding: 8px 0;
   }
 
-  .pr-tag:hover,
-  .about-resume-action:hover,
-  .pr-call-to-action-button:hover,
-  .resume:hover {
+  .skills-line1,
+  .skills-line2 {
+    position: relative;
+    margin: 0 auto;
+    width: 86%;
+    height: 1px;
+    color: #000;
+  }
+
+  .skills-line1 {
+    order: 2;
+    margin: -16px auto;
+  }
+
+  .skills-line2 {
+    order: 4;
+    margin: -16px auto;
+  }
+
+  .about-resume-action-button:hover,
+  .pr-call-to-action-button:hover {
     background: #0f27ff;
     border-radius: 8px;
     color: #fff;
   }
 
-  .pr-tag:enabled,
-  .about-resume-action:enabled,
+  .about-resume-action-button:enabled,
   .pr-call-to-action-button:enabled {
     background: #fff;
     border: 1px solid #0f27ff;
@@ -506,20 +522,16 @@
     color: #0f27ff;
   }
 
-  .pr-tag:active,
-  .about-resume-action:active,
-  .pr-call-to-action-button:active,
-  .resume:active {
+  .about-resume-action-button:active,
+  .pr-call-to-action-button:active {
     background: #2230d2;
     border: 1px solid #0f27ff;
     border-radius: 8px;
     color: #fff;
   }
 
-  .pr-tag:disabled,
-  .about-resume-action:disabled,
-  .pr-call-to-action-button:disabled,
-  .resume:disabled {
+  .about-resume-action-button:disabled,
+  .pr-call-to-action-button:disabled {
     border: 1px solid #c1c7d0;
     border-radius: 8px;
     color: #0f27ff;
