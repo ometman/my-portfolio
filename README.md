@@ -238,6 +238,6 @@ I would like to thank all full-time students of Microverse, the morning session 
 
 ## 📝 License <a name="license"></a>
 
-This project is MIT licensed. Read the <a href="https://github.com/ometman/My-Portfolio/blob/header-section/README.md">LICENSE</a>.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
