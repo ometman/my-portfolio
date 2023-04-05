@@ -155,4 +155,380 @@
     width: 60%;
     height: 20%;
   }
+
+  .works-section {
+    position: relative;
+    height: auto;
+    width: auto;
+    margin: 138px auto;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 96px;
+  }
+
+  .card-one,
+  .card-two,
+  .card-three,
+  .card-four {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 16px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .pr-photo1,
+  .pr-photo2,
+  .pr-photo3,
+  .pr-photo4 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 0 4px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    order: 0;
+  }
+
+  .portfolio-img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    order: 0;
+  }
+
+  .pr-details1,
+  .pr-details2,
+  .pr-details3,
+  .pr-details4 {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    order: 1;
+    gap: 12px;
+  }
+
+  .pr-title {
+    position: relative;
+    width: auto;
+    margin: 0;
+    height: auto;
+    padding: 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    order: 0;
+  }
+
+  ul.pr-type {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    list-style-type: disc;
+    color: #344563;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    order: 1;
+    gap: 24px;
+  }
+
+  ul > li.no-style {
+    list-style-type: none;
+  }
+
+  .pr-description {
+    position: relative;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    order: 2;
+  }
+
+  ul.pr-tech-tags {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+    order: 3;
+  }
+
+  .pr-tag {
+    position: relative;
+    width: auto;
+    height: auto;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    background: #ebebff;
+    border-radius: 8px;
+    border: none;
+    padding: 4px 12px;
+  }
+
+  .pr-call-to-action-box,
+  .about-resume-action-box {
+    position: relative;
+    margin: 0;
+    padding: 4px 0 0 0;
+    width: auto;
+    height: auto;
+    flex: none;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    order: 4;
+  }
+
+  .about-resume-action-box {
+    margin-left: 5%;
+  }
+
+  .pr-call-to-action-button,
+  .about-resume-action-button {
+    color: #0f27ff;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .about-resume-action-button {
+    font-size: 16px !important;
+  }
+
+  .pr-call-to-action-button:link,
+  .about-resume-action-button:link {
+    position: relative;
+    width: 130px;
+    margin: 0;
+    height: 48px;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+  }
+
+  .about-me-section {
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 336px;
+    padding-top: 168px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10%;
+    border-top-right-radius: 70px;
+    background-color: #fff;
+  }
+
+  .about-me-top,
+  .about-me-down {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 16px;
+    background-color: #fff;
+  }
+
+  .about-me-top {
+    order: 0;
+  }
+
+  .about-me-down {
+    order: 1;
+    gap: 36px;
+  }
+
+  ul.no-style {
+    list-style: none;
+  }
+
+  ul.skill-lang-selector1,
+  ul.skill-lang-selector2 {
+    position: relative;
+    height: auto;
+    width: 86%;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ul.skill-lang-selector1 {
+    order: 0;
+  }
+
+  ul.skill-lang-selector2 {
+    order: 2;
+  }
+
+  .skill-name {
+    color: #000;
+    margin: 0;
+    width: auto;
+    height: auto;
+    padding: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    order: 0;
+  }
+
+  .skill-link {
+    color: #000;
+  }
+
+  .skill-icon {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    order: 1;
+  }
+
+  ul.language-list {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    order: 1;
+  }
+
+  .lang-img {
+    padding-left: 12px;
+  }
+
+  .js-lang,
+  .html-lang,
+  .css-lang {
+    height: auto;
+    position: relative;
+    width: 100%;
+    background-color: #f8f8f9;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: stretch;
+    gap: 36px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #253858;
+    flex-wrap: wrap;
+    float: none;
+    list-style: none;
+    padding: 8px 0;
+  }
+
+  .skills-line1,
+  .skills-line2 {
+    position: relative;
+    margin: 0 auto;
+    width: 86%;
+    height: 1px;
+    color: #000;
+  }
+
+  .skills-line1 {
+    order: 2;
+    margin: -16px auto;
+  }
+
+  .skills-line2 {
+    order: 4;
+    margin: -16px auto;
+  }
+
+  .about-resume-action-button:hover,
+  .pr-call-to-action-button:hover {
+    background: #0f27ff;
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .about-resume-action-button:enabled,
+  .pr-call-to-action-button:enabled {
+    background: #fff;
+    border: 1px solid #0f27ff;
+    border-radius: 8px;
+    color: #0f27ff;
+  }
+
+  .about-resume-action-button:active,
+  .pr-call-to-action-button:active {
+    background: #2230d2;
+    border: 1px solid #0f27ff;
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .about-resume-action-button:disabled,
+  .pr-call-to-action-button:disabled {
+    border: 1px solid #c1c7d0;
+    border-radius: 8px;
+    color: #0f27ff;
+  }
 }

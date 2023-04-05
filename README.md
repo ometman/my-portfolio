@@ -79,9 +79,9 @@ Using Figma design, the coding work was done with visual studio code and codes w
 
 - **The toolbar section**
 - **The headline section**
-<!--- **Projects section**
--**Contact Section**
--**About the developer** -->
+- **Projects section**
+- **About the Developer Section**
+<!----**Contact Section** -->
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
