@@ -447,7 +447,7 @@
     margin: 0 auto;
     padding: 0;
     height: auto;
-    width: 86%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -648,7 +648,7 @@
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #396df2;
+    color: #0f27ff;
     background: #fff;
     border: 1px solid #396df2;
     border-radius: 8px;
@@ -663,8 +663,7 @@
   }
 
   .about-resume-action-button:enabled,
-  .pr-call-to-action-button:enabled,
-  .submit-btn:enabled {
+  .pr-call-to-action-button:enabled {
     background: #fff;
     border: 1px solid #0f27ff;
     border-radius: 8px;
