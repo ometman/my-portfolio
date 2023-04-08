@@ -47,7 +47,7 @@
     font-size: 18px;
     line-height: 20px;
     order: 0;
-    animation: rotate 1.50s 3s 2 alternate;
+    animation: rotate 1.5s 3s 2 alternate;
   }
 
   @keyframes rotate {

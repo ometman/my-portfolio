@@ -48,7 +48,7 @@
     font-size: 18px;
     line-height: 20px;
     order: 0;
-    animation: rotate 1.50s 3s 2 normal;
+    animation: rotate 1.5s 3s 2 normal;
   }
 
   @keyframes rotate {
@@ -142,6 +142,7 @@
       margin-left: 100%;
       width: 300%;
     }
+
     to {
       opacity: 1;
       margin-left: 0%;
@@ -190,6 +191,7 @@
       margin-left: -30%;
       width: 100%;
     }
+
     to {
       opacity: 1;
       margin-left: 0%;
@@ -220,6 +222,7 @@
     from {
       opacity: 0;
     }
+    
     to {
       opacity: 1;
     }
