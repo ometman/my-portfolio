@@ -184,7 +184,7 @@
     height: 20%;
   }
 
-  .works-section {
+  .mob-works-section {
     position: relative;
     height: auto;
     width: auto;
@@ -280,7 +280,7 @@
     font-size: 13px;
     line-height: 16px;
     list-style-type: disc;
-    color: #344563;
+    color: #848ea0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -291,6 +291,7 @@
 
   ul > li.no-style {
     list-style-type: none;
+    color: #344563;
   }
 
   .pr-description {
@@ -499,7 +500,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-items: stretch;
+    justify-content: start;
     gap: 24px;
     font-weight: 500;
     font-size: 15px;
@@ -557,7 +558,7 @@
     gap: 24px;
   }
 
-  .contact-text {
+  .contact-instruction {
     text-align: center;
     color: #fff;
     width: 100%;
@@ -732,5 +733,10 @@
     border: 1px;
     background-color: #0d151e;
     border-radius: 10px;
+  }
+
+  .desk-menu,
+  .desk-works-section {
+    display: none;
   }
 }
