@@ -5,7 +5,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/styles.css" >
-        <link rel="stylesheet" href="./css/stylesmin768.css" >
+        <link rel="stylesheet" href="./css/stylesdesk.css" >
         <title> My Portfolio </title>
     </head>
     <body>
@@ -18,6 +18,12 @@
                 <a href="#" class="mobile-menu-icon-wrapper" >
                     <img class="mobile-menu-icon" src="./images/icons/menu-button.png" alt="mobile menu button">
                 </a> <!--use nav here later-->
+                <!--desktop menu - don't show on small screen-->
+                <ul class="desk-menu">
+                    <li><a href="#works-section">Portfolio</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
             </nav> <!--header ends-->
         </header>    
         <!--begin headline section-->
@@ -46,7 +52,7 @@
 
         </section>    
 <!-- Works section -->
-<section class="works-section">
+<section class="mob-works-section">
         <div class="card-one">
             <!--portfolio image one -->
             <div class="pr-photo1">
@@ -65,7 +71,7 @@
                     <li> 2015 </li>
                 </ul>
                 <!--project description-->
-                <p class="pr-description ">
+                <p class="pr-description">
                     A daily selection of privately personalized reads; 
                     no accounts or sign-ups required.
                 </p>
@@ -188,25 +194,173 @@
         </div>
     
 </section> 
+
+<section class="desk-works-section">
+    <div class="card-one">
+        <!--portfolio image one -->
+        <div class="pr-photo1">
+            <img class="portfolio-img" src="./images/photos/portofolio-pic-5.png" alt="1st-portfolio-photo">
+        </div>
+        <!--portfolio details one -->
+       <div class="pr-details1"> 
+            <!--project title-->
+            <h2 class="pr-title">
+                Tonic
+            </h2>
+            <!--project type-->
+            <ul class="pr-type">
+                <li class="no-style"> CANOPY </li>
+                <li class="pr-type-info"> Backend Dev </li>
+                <li class="pr-type-info"> 2015 </li>
+            </ul>
+            <!--project description-->
+            <p class="pr-description">
+                A daily selection of privately personalized reads; 
+                no accounts or sign-ups required.
+            </p>
+            <!--tech tags-->
+            <ul class="pr-tech-tags no-style">
+                <li class="pr-tag">html</li>
+                <li class="pr-tag">css </li>
+                <li class="pr-tag">javascript</li>
+            </ul>
+            <!--action button -->
+            <div class="pr-call-to-action-box">
+                <a href="#" class="pr-call-to-action-button"> See Project</a>
+            </div>
+        </div>
+    </div>
+    <!-- second card-->
+    <div class="card-two">
+        <!--portfolio image two -->
+        <div class="pr-photo2">
+            <img class="portfolio-img" src="./images/photos/portfolio-pic-4.png" alt="2nd portfolio photo">
+        </div>
+        <!--portfolio details two -->
+       <div class="pr-details2"> 
+            <!--project title-->
+            <h2 class="pr-title">
+                Multi-Post Stories
+            </h2>
+            <!--project type-->
+            <ul class="pr-type">
+                <li class="no-style"> FACEBOOK </li>
+                <li class="pr-type-info"> Full Stack Dev </li>
+                <li class="pr-type-info"> 2015 </li>
+            </ul>
+            <!--project description-->
+            <p class="pr-description ">
+                Experimental content creation feature that allows 
+                users to add to an existing story over the course of 
+                a day without spamming their friends.
+            </p>
+            <!--tech tags-->
+            <ul class="pr-tech-tags no-style">
+                <li class="pr-tag">html</li>
+                <li class="pr-tag">Ruby on rails</li>
+                <li class="pr-tag"> css</li>
+                <li class="pr-tag">javascript</li>
+            </ul>
+            <!--action button -->
+            <div class="pr-call-to-action-box">
+                <a href="#" class="pr-call-to-action-button"> See Project</a>
+            </div>
+        </div>
+    </div>
+    <!-- third card -->
+    <div class="card-three">
+        <!--portfolio image three -->
+        <div class="pr-photo3">
+            <img class="portfolio-img" src="./images/photos/portfolio-pic-1.png" alt="3rd portfolio photo">
+        </div>
+        <!--portfolio details three -->
+       <div class="pr-details3"> 
+            <!--project title-->
+            <h2 class="pr-title">
+                Facebook 360
+            </h2>
+            <!--project type-->
+            <ul class="pr-type">
+                <li class="no-style"> FACEBOOK </li>
+                <li class="pr-type-info"> Full Stack Dev </li>
+                <li class="pr-type-info"> 2015 </li>
+            </ul>
+            <!--project description-->
+            <p class="pr-description ">
+                Exploring the future of media in Facebook's first Virtual Reality app; 
+                a place to discover and enjoy 360 photos and videos on Gear VR.
+            </p>
+            <!--tech tags-->
+            <ul class="pr-tech-tags no-style">
+                <li class="pr-tag"> html</li>
+                <li class="pr-tag"> Ruby on rails</li>
+                <li class="pr-tag">css </li>
+                <li class="pr-tag">javascript</li>
+            </ul>
+            <!--action button -->
+            <div class="pr-call-to-action-box">
+                <a href="#" class="pr-call-to-action-button"> See Project</a>
+            </div>
+        </div>
+    </div>
+    <!-- fourth card-->
+    <div class="card-four">
+        <!--portfolio image four -->
+        <div class="pr-photo4">
+            <img class="portfolio-img" src="./images/photos/portfolio-pic-3.png" alt="4th portfolio photo">
+        </div>
+        <!--portfolio details one -->
+       <div class="pr-details4"> 
+            <!--project title-->
+            <h2 class="pr-title">
+                Uber Navigation
+            </h2>
+            <!--project type-->
+            <ul class="pr-type">
+                <li class="no-style"> UBER </li>
+                <li class="pr-type-info"> Leader Developer </li>
+                <li class="pr-type-info"> 2018 </li>
+            </ul>
+            <!--project description-->
+            <p class="pr-description ">
+                A smart assistant to make driving more safe, 
+                efficient, and fun by unlocking your most expensive computer: your car.
+            </p>
+            <!--tech tags-->
+            <ul class="pr-tech-tags no-style">
+                <li class="pr-tag">html</li>
+                <li class="pr-tag">Ruby on rails</li>
+                <li class="pr-tag">css</li>
+                <li class="pr-tag"> javascript</li>
+            </ul>
+            <!--action button -->
+            <div class="pr-call-to-action-box">
+                <a href="#" class="pr-call-to-action-button"> See Project</a>
+            </div>
+        </div>
+    </div>
+
+</section> 
+
 <!--   --About-me section-->
 <section class="about-me-section">
     <!--Top begins here - Text intro social connect , social icons and action button-->
 
             <div class="about-me-top">
                     <h2 class="primary-text abt-primary-text">
-                        About <br> Myself
+                        About <br class="primary-text-br"> Myself
                     </h2> 
-                    <p class="intro-text">
+                    <p class="intro-text abt-intro-text">
                         Hello, I&#39;m a software developer! <br> I can help you build a software product, feature or website. 
                         Take a look at some of my works and experience! If you like what you see and 
                         have a project, don&#39;t hestiate to contact me.
                     </p> 
                     <!--social media -->
-                    <p class="social-media-text">
+                    <p class="social-media-text abt-social-media-text">
                         LET&#39;S CONNECT 
                     </p>
                     <!--social media icons-->
-                    <ul class="social-media-icons">
+                    <ul class="social-media-icons abt-social-media-icons">
                         <li><a href="#"><img class="social-icon" src="./images/icons/twitter-icon.png" alt="twitter icon"></a></li>
                         <li><a href="#"><img class="social-icon" src="./images/icons/linkedin-icon.png" alt="linkedin icon"></a></li>   
                         <li><a href="#"><img class="social-icon" src="./images/icons/medium-icon.png" alt="medium icon"></a></li>   
@@ -234,11 +388,11 @@
             
                 <!--languages-->
                 <ul class="language-list">
-                    <li class="js-lang"> <img class="select-0 lang-img" src="./images/icons/javascript-icon.png" alt="javasript icon"> Javascript</li>
+                    <li class="js-lang"> <img class="lang-img" src="./images/icons/javascript-icon.png" alt="javasript icon">Javascript</li>
                         
-                    <li class="html-lang"> <img class="select-0 lang-img"src="./images/icons/html5-icon.png" alt="html icon"> HTML</li>
+                    <li class="html-lang"> <img class="lang-img"src="./images/icons/html5-icon.png" alt="html icon">HTML</li>
                         
-                    <li class="css-lang"><img class="select-0 lang-img"src="./images/icons/css3-icon.png" alt="css icon"> CSS</li>
+                    <li class="css-lang"><img class="lang-img"src="./images/icons/css3-icon.png" alt="css icon">CSS</li>
                         
                 </ul>
                 <!--frameworks-->
@@ -272,10 +426,10 @@
                 <!--Contact me section begins here -->
                 <footer>
                     <section class="contact-me-section">
-                        <h2 class="primary-text">
+                        <h2 class="primary-text contact-primary-text">
                             Contact me                    
                         </h2>
-                        <p class="intro-text contact-text">
+                        <p class="intro-text contact-instruction">
                             If you have an application you are interested 
                             in developing, a feature that you need built or a 
                             project that needs coding. I&#39;d love to help with it 
