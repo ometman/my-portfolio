@@ -48,6 +48,19 @@
     font-size: 18px;
     line-height: 20px;
     order: 0;
+    animation: rotate 1.5s 3s 2 normal;
+  }
+
+  @keyframes rotate {
+    from {
+      opacity: 1;
+      transform: rotate(0deg);
+    }
+
+    to {
+      opacity: 1;
+      transform: rotate(360deg);
+    }
   }
 
   .nav-bar {
@@ -120,7 +133,7 @@
   }
 
   .pt-animation {
-    animation: slideIn 3s 1 alternate;
+    animation: 3s slideIn 1 normal;
   }
 
   @keyframes slideIn {
@@ -169,7 +182,21 @@
   }
 
   .smt-animation {
-    animation: fadeIn 4s;
+    animation: 3s slideInLeft linear 1 normal;
+  }
+
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      margin-left: -30%;
+      width: 100%;
+    }
+
+    to {
+      opacity: 1;
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
   ul.social-media-icons {
@@ -188,7 +215,7 @@
   }
 
   .smi-animation {
-    animation: fadeIn 4s;
+    animation: 4s fadeIn;
   }
 
   @keyframes fadeIn {
