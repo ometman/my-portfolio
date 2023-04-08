@@ -119,6 +119,24 @@
     order: 0;
   }
 
+  .pt-animation {
+    animation: slideIn 3s 1 alternate;
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      opacity: 1;
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
   .intro-text {
     position: relative;
     width: auto;
@@ -131,6 +149,10 @@
     overflow-wrap: break-word;
     color: #344563;
     order: 1;
+  }
+
+  .it-animation {
+    animation: fadeIn 4s;
   }
 
   .social-media-text {
@@ -146,6 +168,10 @@
     order: 2;
   }
 
+  .smt-animation {
+    animation: fadeIn 4s;
+  }
+
   ul.social-media-icons {
     position: relative;
     width: auto;
@@ -159,6 +185,20 @@
     align-items: start;
     gap: 4%;
     order: 3;
+  }
+
+  .smi-animation {
+    animation: fadeIn 4s;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
   }
 
   .social-icon {
@@ -212,6 +252,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    transition: scale 1s ease-out;
   }
 
   .pr-photo1,
@@ -222,6 +263,13 @@
   .pr-photo2,
   .pr-photo4 {
     order: 1;
+  }
+
+  .pr-photo1:hover,
+  .pr-photo2:hover,
+  .pr-photo3:hover,
+  .pr-photo4:hover {
+    scale: 1.04;
   }
 
   .portfolio-img {

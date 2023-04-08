@@ -136,6 +136,24 @@
     order: 0;
   }
 
+  .pt-animation {
+    animation: slideIn 3s 1 alternate;
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      opacity: 1;
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
   .intro-text {
     position: relative;
     width: auto;
@@ -148,6 +166,20 @@
     overflow-wrap: break-word;
     color: #344563;
     order: 1;
+  }
+
+  .it-animation {
+    animation: 4s fadeIn;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
   }
 
   .social-media-text {
@@ -163,6 +195,24 @@
     order: 2;
   }
 
+  .smt-animation {
+    animation: slideInLeft 3s 1 alternate;
+  }
+
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      margin-right: 300%;
+      width: 300%;
+    }
+
+    to {
+      opacity: 1;
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
   ul.social-media-icons {
     position: relative;
     width: auto;
@@ -176,6 +226,20 @@
     align-items: start;
     gap: 4%;
     order: 3;
+  }
+
+  .smi-animation {
+    animation: fadeIn 4s;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
   }
 
   .social-icon {
@@ -230,6 +294,14 @@
     align-items: center;
     justify-content: center;
     order: 0;
+    transition: scale 1s ease-out;
+  }
+
+  .pr-photo1:hover,
+  .pr-photo2:hover,
+  .pr-photo3:hover,
+  .pr-photo4:hover {
+    scale: 1.04;
   }
 
   .portfolio-img {
@@ -547,7 +619,7 @@
     height: auto;
     padding: 114px 24px 48px 24px;
     background: #6070ff;
-    background-image: url('../images/bgd/mob-contact-bg.png');
+    background-image: url("../images/bgd/mob-contact-bg.png");
     background-repeat: no-repeat;
     background-position: right;
     border-top-left-radius: 70px;
@@ -684,9 +756,11 @@
   .about-resume-action-button:hover,
   .pr-call-to-action-button:hover,
   .submit-btn:hover {
-    background: #0f27ff;
+    background: #6070ff;
     border-radius: 8px;
+    border: 0;
     color: #fff;
+    box-shadow: 0 2px 5px #0f27ff;
   }
 
   .about-resume-action-button:enabled,
