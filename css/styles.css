@@ -47,6 +47,19 @@
     font-size: 18px;
     line-height: 20px;
     order: 0;
+    animation: rotate 1.50s 3s 2 alternate;
+  }
+
+  @keyframes rotate {
+    from {
+      opacity: 1;
+      transform: rotate(0deg);
+    }
+
+    to {
+      opacity: 1;
+      transform: rotate(360deg);
+    }
   }
 
   .nav-bar {
@@ -137,7 +150,7 @@
   }
 
   .pt-animation {
-    animation: slideIn 3s 1 alternate;
+    animation: 3s slideIn 1 normal;
   }
 
   @keyframes slideIn {
