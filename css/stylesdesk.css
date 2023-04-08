@@ -252,12 +252,17 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    transition: scale 1s ease-out;
   }
 
   .pr-photo1,
   .pr-photo3 {
     order: 0;
-    transition: scale 1s ease-out;
+  }
+
+  .pr-photo2,
+  .pr-photo4 {
+    order: 1;
   }
 
   .pr-photo1:hover,
@@ -265,11 +270,6 @@
   .pr-photo3:hover,
   .pr-photo4:hover {
     scale: 1.04;
-  }
-
-  .pr-photo2,
-  .pr-photo4 {
-    order: 1;
   }
 
   .portfolio-img {
