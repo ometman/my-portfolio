@@ -82,6 +82,7 @@ Using Figma design, the coding work was done with visual studio code and codes w
 - **Projects section**
 - **About the Developer Section**
 - **Contact Section**
+- **Viewable on mobile and desktop**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
