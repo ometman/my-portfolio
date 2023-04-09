@@ -783,9 +783,11 @@
   .about-resume-action-button:hover,
   .pr-call-to-action-button:hover,
   .submit-btn:hover {
-    background: #0f27ff;
+    background: #6070ff;
     border-radius: 8px;
+    border: 0;
     color: #fff;
+    box-shadow: 0 2px 5px #0f27ff;
   }
 
   .about-resume-action-button:enabled,
