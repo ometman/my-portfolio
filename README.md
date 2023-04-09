@@ -163,7 +163,7 @@ Any web hosting service. Example: gcloud, aws etc
 - Twitter: [@twitterhandle](https://twitter.com/ometman)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ometman)
 
-<!-- Mention all of the collaborators of this project.-->
+<!-- Mention collaborators of this project.-->
 <!--## 👥 Collaborators <a name="collaborators"></a>
 
 
