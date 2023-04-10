@@ -438,14 +438,22 @@
                         <form id="contact-form" name="contact-form" action="https://formspree.io/f/xqkozzva" method="post">
                             <ul class="contact-form-items">
                                 <li class="sender-name">
-                                   <input id="username" class="username" name="user_name" type="text" maxlength="30" placeholder="Darilyn" required />
+                                   <label for="username" class="username-label">
+                                    <input id="username" class="username" name="user_name" type="text" maxlength="30" placeholder="Darilyn" required />
+                                   </label>
                                 </li>
+
                                 <li class="sender-email">
-                                    <input id="email" class="email" name="user_email" type="email" placeholder="myemail@gmail.com"  required/>
+                                    <label for="email" class="email-label">
+                                        <input id="email" class="email" name="user_email" type="email" placeholder="myemail@gmail.com"  required/>
+                                    </label>
                                 </li>
                                 <li class="sender-message">
-                                    <textarea id="message" class="message" name="user_message" maxlength="500" type="text" placeholder="Write your message here" required ></textarea>
+                                    <label for="message" class="message-label">
+                                        <textarea id="message" class="message" name="user_message" maxlength="500" type="text" placeholder="Write your message here" required ></textarea>
                                     </textarea>
+                                    </label>
+                                    
                                 </li>
                                 <li class="contact-submit-btn">
                                     <button id="submit-btn" class="submit-btn" name="submit" type="submit"> Get In touch </button>

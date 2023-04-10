@@ -356,7 +356,7 @@
     font-size: 18px;
     line-height: 24px;
     list-style-type: disc;
-    color: #848ea0;
+    color: #344563;;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -367,7 +367,6 @@
 
   ul > li.no-style {
     list-style-type: none;
-    color: #344563;
   }
 
   .pr-type-info {
@@ -410,7 +409,7 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #0015d6;;
     background: #ebebff;
     border-radius: 8px;
     border: none;
@@ -638,7 +637,8 @@
     margin: 0 auto;
     height: auto;
     padding: 114px 24px 88px 24px;
-    background: #6070ff;
+    /* background: #6070ff; */
+    background: #0018f5;
     background-image: url("../images/bgd/desk-footer-bg.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -753,6 +753,12 @@
     line-height: 24px;
     color: #b3bac5;
   }
+
+  /* .username-label,
+  .email-label,
+  .message-label {
+    visibility: visible;
+  } */
 
   .contact-submit-btn {
     position: relative;
