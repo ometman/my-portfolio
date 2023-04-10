@@ -757,6 +757,7 @@
   .username-label,
   .email-label,
   .message-label {
+    display: block;
     visibility: hidden;
   }
 
