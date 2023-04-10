@@ -757,7 +757,7 @@
   .username-label,
   .email-label,
   .message-label {
-    visibility: visible;
+    visibility: hidden;
   }
 
   .contact-submit-btn {
