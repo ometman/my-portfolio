@@ -754,11 +754,11 @@
     color: #b3bac5;
   }
 
-  /* .username-label,
+  .username-label,
   .email-label,
   .message-label {
     visibility: visible;
-  } */
+  }
 
   .contact-submit-btn {
     position: relative;
