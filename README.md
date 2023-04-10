@@ -166,7 +166,6 @@ Any web hosting service. Example: gcloud, aws etc
 <!-- Mention collaborators of this project.-->
 <!--## 👥 Collaborators <a name="collaborators"></a>
 
-
 👤 **Marcos Hernández**
 
 - GitHub: [@githubhandle](https://github.com/marcoshdezcam)
@@ -234,8 +233,6 @@ I would like to thank all full-time students of Microverse, the morning session 
   - You are free to download and modify certain sections of the code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE This project is [MIT](./LICENSE) licensed.-->
 
 ## 📝 License <a name="license"></a>
 
