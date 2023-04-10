@@ -14,6 +14,10 @@
     font-style: normal;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   *,
   *::before,
   *::after {
@@ -266,6 +270,14 @@
     gap: 12px;
   }
 
+  .card-one:hover,
+  .card-two:hover,
+  .card-three:hover,
+  .card-four:hover {
+    border: 1px #0f27ff;
+    box-shadow: 1px 1px 6px #0018f5;
+  } 
+
   .pr-photo1,
   .pr-photo2,
   .pr-photo3,
@@ -409,7 +421,7 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #0015d6;;
+    color: #0400be;
     background: #ebebff;
     border-radius: 8px;
     border: none;
@@ -637,8 +649,7 @@
     margin: 0 auto;
     height: auto;
     padding: 114px 24px 88px 24px;
-    /* background: #6070ff; */
-    background: #0018f5;
+    background: #0016df;
     background-image: url("../images/bgd/desk-footer-bg.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -729,6 +740,18 @@
     color: #172b4d;
   }
 
+  .placeholder:focus::-webkit-input-placeholder {
+    color: #fff;
+  }
+
+  .placeholder:focus::-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .placeholder:focus::-moz-placeholder {
+    color: #fff;
+  }
+
   .username,
   .email {
     height: 18px;
@@ -783,18 +806,24 @@
     letter-spacing: 0.03em;
     color: #0f27ff;
     background: #fff;
-    border: 1px solid #396df2;
+    border: 1px solid #fff;
     border-radius: 8px;
   }
 
   .about-resume-action-button:hover,
-  .pr-call-to-action-button:hover,
-  .submit-btn:hover {
+  .pr-call-to-action-button:hover {
     background: #6070ff;
     border-radius: 8px;
     border: 0;
     color: #fff;
     box-shadow: 0 2px 5px #0f27ff;
+  }
+
+  .submit-btn:hover {
+    background: #0016df;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    color: #fff;
   }
 
   .about-resume-action-button:enabled,
@@ -815,8 +844,7 @@
   }
 
   .about-resume-action-button:disabled,
-  .pr-call-to-action-button:disabled,
-  .submit-btn:disabled {
+  .pr-call-to-action-button:disabled {
     border: 1px solid #c1c7d0;
     border-radius: 8px;
     color: #0f27ff;
