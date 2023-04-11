@@ -6,23 +6,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/styles.css" >
         <link rel="stylesheet" href="./css/stylesdesk.css" >
-        <title> My Portfolio </title>
+        <title> My Portfolio</title>
     </head>
     <body>
         <header class="header">
              <!--begin toolbar  -->
-            <a href="#" class="logo" ><!--logo link-->
+            <a href="./index.html" class="logo" ><!--logo link-->
                 Ometman
             </a>
             <nav class="nav-bar">
                 <a href="#" class="mobile-menu-icon-wrapper" >
-                    <img class="mobile-menu-icon" src="./images/icons/menu-button.png" alt="mobile menu button">
+                    <img class="mobile-menu-icon" src="./images/icons/menu-button.png" alt="humburger icon used as mobile menu button">
                 </a> <!--use nav here later-->
                 <!--desktop menu - don't show on small screen-->
                 <ul class="desk-menu">
-                    <li><a href="#works-section">Portfolio</a></li>
-                    <li><a href="#about-section">About</a></li>
-                    <li><a href="#contact-section">Contact</a></li>
+                    <li><a href="./index.html#desk-works-section">Portfolio</a></li>
+                    <li><a href="./index.html#about-section">About</a></li>
+                    <li><a href="./index.html#contact-section">Contact</a></li>
                 </ul>
             </nav> <!--header ends-->
         </header>    
@@ -43,16 +43,16 @@
                 </p>
                 <!--social media icons-->
                 <ul class="social-media-icons smi-animation">
-                    <li><a href="#"><img class="social-icon" src="./images/icons/twitter-icon.png" alt="twitter icon"></a></li>
-                    <li><a href="#"><img class="social-icon" src="./images/icons/linkedin-icon.png" alt="linkedin icon"></a></li>   
-                    <li><a href="#"><img class="social-icon" src="./images/icons/medium-icon.png" alt="medium icon"></a></li>   
-                    <li><a href="#"><img class="social-icon" src="./images/icons/github-icon.png" alt="github icon"></a></li>    
-                    <li><a href="#"><img class="social-icon" src="./images/icons/vic-icon.png" alt="vic icon"></a></li>    
+                    <li><a href="https://twiter.com/ometman"><img class="social-icon" src="./images/icons/twitter-icon.png" alt="twitter logo"></a></li>
+                    <li><a href="https://linkedin.com/in/ometman"><img class="social-icon" src="./images/icons/linkedin-icon.png" alt="linkedin logo"></a></li>   
+                    <li><a href="#"><img class="social-icon" src="./images/icons/medium-icon.png" alt="medium logo"></a></li>   
+                    <li><a href="https://github.com/ometman"><img class="social-icon" src="./images/icons/github-icon.png" alt="github logo"></a></li>    
+                    <li><a href="#"><img class="social-icon" src="./images/icons/vic-icon.png" alt="vic logo"></a></li>    
                 </ul>
-
+              
         </section>    
 <!-- Works section -->
-<section class="mob-works-section">
+<section id="mob-works-section" class="mob-works-section">
         <div class="card-one">
             <!--portfolio image one -->
             <div class="pr-photo1">
@@ -195,7 +195,7 @@
     
 </section> 
 
-<section class="desk-works-section">
+<section id="desk-works-section" class="desk-works-section">
     <div class="card-one">
         <!--portfolio image one -->
         <div class="pr-photo1">
@@ -343,7 +343,7 @@
 </section> 
 
 <!--   --About-me section-->
-<section class="about-me-section">
+<section id="about-section" class="about-me-section">
     <!--Top begins here - Text intro social connect , social icons and action button-->
 
             <div class="about-me-top">
@@ -361,15 +361,15 @@
                     </p>
                     <!--social media icons-->
                     <ul class="social-media-icons abt-social-media-icons">
-                        <li><a href="#"><img class="social-icon" src="./images/icons/twitter-icon.png" alt="twitter icon"></a></li>
-                        <li><a href="#"><img class="social-icon" src="./images/icons/linkedin-icon.png" alt="linkedin icon"></a></li>   
-                        <li><a href="#"><img class="social-icon" src="./images/icons/medium-icon.png" alt="medium icon"></a></li>   
-                        <li><a href="#"><img class="social-icon" src="./images/icons/github-icon.png" alt="github icon"></a></li>    
-                        <li><a href="#"><img class="social-icon" src="./images/icons/vic-icon.png" alt="vic icon"></a></li>    
+                        <li><a href="https://twiter.com/ometman"><img class="social-icon" src="./images/icons/twitter-icon.png" alt="twitter logo"></a></li>
+                        <li><a href="https://linkedin.com/in/ometman"><img class="social-icon" src="./images/icons/linkedin-icon.png" alt="linkedin logo"></a></li>   
+                        <li><a href="#"><img class="social-icon" src="./images/icons/medium-icon.png" alt="medium logo"></a></li>   
+                        <li><a href="https://github.com/ometman"><img class="social-icon" src="./images/icons/github-icon.png" alt="github logo"></a></li>    
+                        <li><a href="#"><img class="social-icon" src="./images/icons/vic-icon.png" alt="vic logo"></a></li>    
                     </ul>
                      <!--This place must be checked-->
                     <div class="about-resume-action-box">
-                        <a href="#" class="about-resume-action-button"> 
+                        <a href="./index.html" class="about-resume-action-button"> 
                             See Resume 
                         </a>
                     </div> 
@@ -402,7 +402,7 @@
                        <a href="#" class="skill-link">Frameworks</a>
                     </li>     
                     <li class="skill-link">
-                        <a href="#"><img class="skill-icon" src="./images/icons/button-icon-rt.png" alt="skill selector button"></a> 
+                        <a href="#"><img class="skill-icon" src="./images/icons/button-icon-rt.png" alt="frameworks selector button"></a> 
                     </li>
                 </ul>
                 <hr class="skills-line1"> 
@@ -425,27 +425,41 @@
         </section>      
                 <!--Contact me section begins here -->
                 <footer>
-                    <section class="contact-me-section">
+                    <section id="contact-section" class="contact-me-section">
                         <h2 class="primary-text contact-primary-text">
                             Contact me                    
                         </h2>
                         <p class="intro-text contact-instruction">
                             If you have an application you are interested 
                             in developing, a feature that you need built or a 
-                            project that needs coding. I&#39;d love to help with it 
+                            project that needs coding. I&#39;d love to help with it. Kindly fill the form
+                            below. Items marked with asterisk (*) are required.
                         </p>
                     <!--contact form begins here-->
                         <form id="contact-form" name="contact-form" action="https://formspree.io/f/xqkozzva" method="post">
                             <ul class="contact-form-items">
                                 <li class="sender-name">
-                                   <input id="username" class="username" name="user_name" type="text" maxlength="30" placeholder="Darilyn" required />
+                                   <label for="username" class="username-label">
+                                    Enter Your username (*)
+                                    </label>
+                                    <input id="username" class="username placeholder" name="user_name" type="text" maxlength="30" placeholder="Darilyn (*)" required />
+                                   
                                 </li>
+
                                 <li class="sender-email">
-                                    <input id="email" class="email" name="user_email" type="email" placeholder="myemail@gmail.com"  required/>
+                                    <label for="email" class="email-label">
+                                        Enter your Email (*)
+                                    </label>
+                                    <input id="email" class="email placeholder" name="user_email" type="email" placeholder="myemail@gmail.com (*)"  required/>
                                 </li>
                                 <li class="sender-message">
-                                    <textarea id="message" class="message" name="user_message" maxlength="500" type="text" placeholder="Write your message here" required ></textarea>
+                                    <label for="message" class="message-label">
+                                        Enter your message (*)
+                                    </label>
+                                    <textarea id="message" class="message placeholder" name="user_message" maxlength="500" type="text" placeholder="Write your message here (*)" required ></textarea>
                                     </textarea>
+                                    
+                                    
                                 </li>
                                 <li class="contact-submit-btn">
                                     <button id="submit-btn" class="submit-btn" name="submit" type="submit"> Get In touch </button>

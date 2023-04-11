@@ -14,6 +14,10 @@
     font-style: normal;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   *,
   *::before,
   *::after {
@@ -266,6 +270,14 @@
     gap: 12px;
   }
 
+  .card-one:hover,
+  .card-two:hover,
+  .card-three:hover,
+  .card-four:hover {
+    border: 1px #0f27ff;
+    box-shadow: 1px 1px 6px #0018f5;
+  }
+
   .pr-photo1,
   .pr-photo2,
   .pr-photo3,
@@ -314,7 +326,7 @@
     position: relative;
     width: 50%;
     height: auto;
-    margin: 0 auto;
+    margin: 2% auto;
     padding: 0 4px;
     display: flex;
     flex-direction: column;
@@ -356,7 +368,7 @@
     font-size: 18px;
     line-height: 24px;
     list-style-type: disc;
-    color: #848ea0;
+    color: #344563;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -367,7 +379,6 @@
 
   ul > li.no-style {
     list-style-type: none;
-    color: #344563;
   }
 
   .pr-type-info {
@@ -410,7 +421,7 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #0400be;
     background: #ebebff;
     border-radius: 8px;
     border: none;
@@ -638,7 +649,7 @@
     margin: 0 auto;
     height: auto;
     padding: 114px 24px 88px 24px;
-    background: #6070ff;
+    background: #0016df;
     background-image: url("../images/bgd/desk-footer-bg.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -729,6 +740,18 @@
     color: #172b4d;
   }
 
+  .placeholder:focus::-webkit-input-placeholder {
+    color: #fff;
+  }
+
+  .placeholder:focus::-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .placeholder:focus::-moz-placeholder {
+    color: #fff;
+  }
+
   .username,
   .email {
     height: 18px;
@@ -754,6 +777,13 @@
     color: #b3bac5;
   }
 
+  .username-label,
+  .email-label,
+  .message-label {
+    display: block;
+    visibility: hidden;
+  }
+
   .contact-submit-btn {
     position: relative;
     width: auto;
@@ -776,15 +806,23 @@
     letter-spacing: 0.03em;
     color: #0f27ff;
     background: #fff;
-    border: 1px solid #396df2;
+    border: 1px solid #fff;
     border-radius: 8px;
   }
 
   .about-resume-action-button:hover,
-  .pr-call-to-action-button:hover,
-  .submit-btn:hover {
-    background: #0f27ff;
+  .pr-call-to-action-button:hover {
+    background: #6070ff;
     border-radius: 8px;
+    border: 0;
+    color: #fff;
+    box-shadow: 0 2px 5px #0f27ff;
+  }
+
+  .submit-btn:hover {
+    background: #0016df;
+    border-radius: 8px;
+    border: 1px solid #fff;
     color: #fff;
   }
 
@@ -806,8 +844,7 @@
   }
 
   .about-resume-action-button:disabled,
-  .pr-call-to-action-button:disabled,
-  .submit-btn:disabled {
+  .pr-call-to-action-button:disabled {
     border: 1px solid #c1c7d0;
     border-radius: 8px;
     color: #0f27ff;

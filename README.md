@@ -41,11 +41,11 @@
 
 <!-- Project Description in 1 or 2 sentences -->
 
-**My Portfolio** is a simple website that gives information about me, capabilities, various projects I have done, my resume as a web developer and how I can be reached.
+**My Portfolio** is a simple website that gives information about me, my capabilities, various projects I have done, my resume as a web developer and how I can be reached.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-This was built with Visual Studio Code according to Figma design, based on  Microverse's strick requirements.
+This was built with Visual Studio Code according to Figma design, based on  Microverse's strict requirements.
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -79,8 +79,8 @@ Using Figma design, the coding work was done with visual studio code and codes w
 
 - **The toolbar section**
 - **The headline section**
-- **Projects section**
-- **About the Developer Section**
+- **Projects or works section**
+- **About Myself, the Developer, Section**
 - **Contact Section**
 - **Viewable on mobile and desktop**
 
@@ -93,9 +93,9 @@ Using Figma design, the coding work was done with visual studio code and codes w
 
 A live demo link is coming up soon.
 
-<!-- See a live demo at the link below:
+See a live demo at the link below:
 
-<a href="https://ometman.github.io/my-portfolio/">Live demo</a> -->
+<a href="https://ometman.github.io/my-portfolio/">Live demo</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -128,7 +128,7 @@ To begin, clone this repository to your desired folder:
   Using the command-line, change to your desired directory and run the clone commmand.
   Example: 
   cd my-folder
-  git clone git@github.com:ometman/Hello-world.git
+  git clone https://github.com/ometman/my-portfolio.git
 
 ### Install
 
@@ -163,9 +163,8 @@ Any web hosting service. Example: gcloud, aws etc
 - Twitter: [@twitterhandle](https://twitter.com/ometman)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ometman)
 
-<!-- Mention all of the collaborators of this project.-->
+<!-- Mention collaborators of this project.-->
 <!--## 👥 Collaborators <a name="collaborators"></a>
-
 
 👤 **Marcos Hernández**
 
@@ -234,8 +233,6 @@ I would like to thank all full-time students of Microverse, the morning session 
   - You are free to download and modify certain sections of the code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE This project is [MIT](./LICENSE) licensed.-->
 
 ## 📝 License <a name="license"></a>
 
