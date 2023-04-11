@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   html,
   body {
     height: 100%;
@@ -794,8 +794,7 @@
   }
 
   .about-resume-action-button:hover,
-  .pr-call-to-action-button:hover,
-  .submit-btn:hover {
+  .pr-call-to-action-button:hover {
     background: #6070ff;
     border-radius: 8px;
     border: 0;
