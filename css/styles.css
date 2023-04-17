@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
-/* and (max-width: 767px) */
+
 @media screen and (min-width: 375px) {
   html,
   body {
@@ -259,14 +259,14 @@
   }
 
   .smt-animation {
-    animation: slideInLeft 3s 1 alternate;
+    animation: slideInLeft 2.5s linear 1 normal;
   }
 
   @keyframes slideInLeft {
     from {
       opacity: 0;
-      margin-right: 300%;
-      width: 300%;
+      margin-left: -30%;
+      width: 100%;
     }
 
     to {
