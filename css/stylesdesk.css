@@ -108,7 +108,7 @@
     height: 90vh;
     width: 100%;
     margin: -1px auto;
-    border-bottom-left-radius: 5rem;
+    border-bottom-left-radius: 7rem;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -486,7 +486,7 @@
     grid-template-columns: 40% 57%;
     grid-template-rows: 1fr;
     column-gap: 3%;
-    border-top-right-radius: 70px;
+    border-top-right-radius: 7rem;
     background-color: #fff;
   }
 
@@ -654,7 +654,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 80%;
-    border-top-left-radius: 80px;
+    border: 0;
+    border-top-left-radius: 7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -852,6 +853,7 @@
 
   @media screen and (min-width: 768px) {
     .mobile-menu-icon-wrapper,
+    .mobile-menu,
     .primary-text-br,
     .mob-works-section,
     .indicator {
