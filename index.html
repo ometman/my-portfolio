@@ -15,9 +15,19 @@
                 Ometman
             </a>
             <nav class="nav-bar">
-                <a href="#" class="mobile-menu-icon-wrapper" >
+                <a href="#" id="mm-icon-wrapper" class="mm-icon-wrapper" >
                     <img class="mobile-menu-icon" src="./images/icons/menu-button.png" alt="humburger icon used as mobile menu button">
                 </a> <!--use nav here later-->
+                <!--mobile menu nav -->
+                <nav class="m-menu-nav">
+                <a class="m-menu-closebtn" href="#">X</a>
+                <ul id="mobile-menu" class="mobile-menu no-style">
+                    <li><a href="./index.html#mob-works-section" class="m-menu-close m-wks-sect">Portfolio</a></li>
+                    <li><a href="./index.html#about-section" class="m-menu-close m-abt-sect">About</a></li>
+                    <li><a href="./index.html#contact-section" class="m-menu-close m-cnt-sect">Contact</a></li>
+                </ul>
+                <hr class="indicator-bar m-menu-bar">
+                </nav>
                 <!--desktop menu - don't show on small screen-->
                 <ul class="desk-menu">
                     <li><a href="./index.html#desk-works-section">Portfolio</a></li>
@@ -424,7 +434,7 @@
             </section>        
         </section>      
                 <!--Contact me section begins here -->
-                <footer>
+                <footer class="footer">
                     <section id="contact-section" class="contact-me-section">
                         <h2 class="primary-text contact-primary-text">
                             Contact me                    
@@ -473,5 +483,7 @@
                         <hr class="indicator-bar">
                     </section>
                 </footer> 
+            <script src="./js/main.js"></script>
     </body>
+
 </html>
