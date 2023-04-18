@@ -858,3 +858,21 @@
     display: none;
   }
 }
+
+#email-error {
+    order: 0;
+    position: relative;
+    height: 1.7rem;
+    margin: 0 auto;
+    padding-top: 0.5rem;
+    width: 80%;
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 1rem;
+    color: red;
+    text-align: center;
+    background-color: #fff;
+    border: solid 1.5px #6070ff;
+    border-radius: 0.2rem;
+    visibility: hidden;
+  }
