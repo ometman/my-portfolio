@@ -685,8 +685,8 @@
   }
 
   @media screen and (min-width: 768px) {
-    .mobile-menu-icon-wrapper,
-    .mobile-menu,
+    .mm-icon-wrapper,
+    .m-mobile-menu,
     .primary-text-br,
     .mob-works-section,
     .indicator {

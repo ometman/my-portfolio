@@ -144,8 +144,8 @@
     margin-top: -2rem;
     margin-right: 2rem;
     font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
     color: #fff;
   }
 
@@ -174,7 +174,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 90%;
-    overflow: hidden;   
+    overflow: hidden;
   }
 
   @media screen and (width: 414px), (width: 412px) {
@@ -902,7 +902,7 @@
     position: relative;
     width: 100%;
     height: auto;
-    margin: 0;;
+    margin: 0;
     padding: 2.5rem 0 0.5rem 0;
     background-color: #0016df;
     display: flex;
