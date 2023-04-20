@@ -18,9 +18,3 @@ mobMenuClose.forEach((link) => link.addEventListener('click', () => {
   mobMenuNav.style.display = 'none';
   blurEl.forEach((el) => el.classList.remove('blur-bg'));
 }));
-
-//
-mobMenuClose.forEach((link) => link.addEventListener('click', () => {
-  mobMenuNav.style.display = 'none';
-  blurEl.forEach((el) => el.classList.remove('blur-bg'));
-}));
