@@ -92,8 +92,6 @@ Using Figma design, the coding work was done with visual studio code and codes w
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-A live demo link is coming up soon.
-
 See a live demo at the link below:
 
 <a href="https://ometman.github.io/my-portfolio/">Live demo</a>
