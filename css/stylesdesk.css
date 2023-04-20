@@ -185,6 +185,7 @@
 
   ul.pr-tech-tags {
     margin: 2% 0;
+    gap: 3px;
   }
 
   .pr-tag {
@@ -193,6 +194,10 @@
 
   .pr-call-to-action-box {
     margin: 2% 0;
+  }
+
+  .about-resume-action-box {
+    margin-left: 0;
   }
 
   .pr-call-to-action-button:link,
@@ -252,9 +257,20 @@
     line-height: 20px;
   }
 
-  .popup-portfolio-img {
+  .popup-pr-photo {
+    position: relative;
     width: 100%;
-    height: auto;
+    height: 88%;
+    order: 2;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .popup-portfolio-img {
+    height: 88%;
   }
 
   .popup-portfolio-img:hover {
@@ -266,15 +282,16 @@
     width: 100%;
     flex-direction: row;
     gap: 0.8rem;
+    margin-top: -4%;
   }
 
   .popup-pr-desc {
-    width: auto;
+    width: 75%;
     position: relative;
   }
 
   .popup-tech-info {
-    width: auto;
+    width: 25%;
     position: relative;
     gap: 0.5rem;
   }
@@ -810,9 +827,15 @@
       line-height: 24px;
     }
 
+    .popup-pr-photo {
+      position: relative;
+      width: 100%;
+      height: 93%;
+    }
+
     .popup-portfolio-img {
       width: 100%;
-      height: auto;
+      height: 93%;
       scale: 1;
     }
 
@@ -822,16 +845,25 @@
 
     .popup-details {
       gap: 0.8rem;
+      margin: 0;
     }
 
     .popup-pr-desc {
       font-size: 16px;
+      width: 80%;
+      position: relative;
     }
 
     ul.popup-pr-techs {
       flex-wrap: wrap;
       gap: 8px;
       height: auto;
+    }
+
+    .popup-tech-info {
+      width: 20%;
+      position: relative;
+      gap: 0.5rem;
     }
 
     .popup-action-btns {

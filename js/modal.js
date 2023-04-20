@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 // Js for creating dynamic content and popup modal
 
 // getting and assigning variables to elements
