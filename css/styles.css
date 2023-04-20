@@ -124,6 +124,14 @@
     margin-bottom: 19rem;
   }
 
+  ul.popup-pr-type li {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #344563;
+  }
+
   #mobile-menu li {
     position: relative;
     margin-bottom: 1.5rem;
@@ -608,14 +616,6 @@
     align-items: center;
     justify-content: start;
     gap: 24px;
-  }
-
-  ul.popup-pr-type li {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 16px;
-    font-family: "Poppins", sans-serif;
-    color: #344563;
   }
 
   .popup-pr-photo {
