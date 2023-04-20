@@ -33,47 +33,18 @@
     height: 4rem;
     padding: 0 10%;
     margin: 0;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     z-index: 20;
   }
 
   .logo {
-    position: relative;
-    width: auto;
-    height: auto;
     padding: 0;
-    font-family: "Poppins", sans-serif;
-    color: #0f27ff;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    order: 0;
-    animation: rotate 1.5s 3s 2 normal;
-  }
-
-  @keyframes rotate {
-    from {
-      opacity: 1;
-      transform: rotate(0deg);
-    }
-
-    to {
-      opacity: 1;
-      transform: rotate(360deg);
-    }
   }
 
   .nav-bar {
-    position: relative;
     padding: 0;
-    width: auto;
-    margin: 0;
-    height: auto;
-    order: 1;
   }
 
   .desk-menu {
@@ -104,7 +75,6 @@
   }
 
   .headline-section {
-    position: relative;
     height: 90vh;
     width: 100%;
     margin: 48px auto;
@@ -116,126 +86,25 @@
     gap: 1.2rem;
     background-color: #fff;
     background-image: url("../images/bgd/desk-header-bg.png");
-    background-repeat: no-repeat;
     background-size: 98% 96%;
-    background-position: center;
-    overflow: hidden;
   }
 
   .primary-text {
-    position: relative;
-    margin: 0;
-    width: auto;
-    height: auto;
     padding: 0 15%;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
     font-size: 44px;
-    line-height: 52px;
-    color: #172b4d;
-    order: 0;
-  }
-
-  .pt-animation {
-    animation: 3s slideIn 1 normal;
-  }
-
-  @keyframes slideIn {
-    from {
-      opacity: 0;
-      margin-left: 100%;
-      width: 300%;
-    }
-
-    to {
-      opacity: 1;
-      margin-left: 0%;
-      width: 100%;
-    }
   }
 
   .intro-text {
-    position: relative;
-    width: auto;
-    height: auto;
     padding: 0 15%;
-    margin: 0;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 20px;
-    overflow-wrap: break-word;
-    color: #344563;
-    order: 1;
-  }
-
-  .it-animation {
-    animation: fadeIn 4s;
   }
 
   .social-media-text {
-    position: relative;
-    margin: 0;
-    width: auto;
-    height: auto;
     padding: 0 15%;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #0f27ff;
-    order: 2;
-  }
-
-  .smt-animation {
-    animation: 3s slideInLeft linear 1 normal;
-  }
-
-  @keyframes slideInLeft {
-    from {
-      opacity: 0;
-      margin-left: -30%;
-      width: 100%;
-    }
-
-    to {
-      opacity: 1;
-      margin-left: 0%;
-      width: 100%;
-    }
   }
 
   ul.social-media-icons {
-    position: relative;
-    width: auto;
-    height: auto;
     padding: 0 15%;
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: start;
-    gap: 4%;
-    order: 3;
-  }
-
-  .smi-animation {
-    animation: 4s fadeIn;
-  }
-
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-
-    to {
-      opacity: 1;
-    }
-  }
-
-  .social-icon {
-    position: relative;
-    width: 60%;
-    height: 20%;
   }
 
   .desk-works-section {
@@ -526,7 +395,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 80%;
-    border-top-left-radius: 80px;
+    border: 0;
+    border-top-left-radius: 7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -723,7 +593,8 @@
   }
 
   @media screen and (min-width: 768px) {
-    .mobile-menu-icon-wrapper,
+    .mm-icon-wrapper,
+    .m-mobile-menu,
     .primary-text-br,
     .mob-works-section,
     .mob-modal-popup,
