@@ -4,7 +4,7 @@
   html {
     font-size: 20px;
   }
-  
+
   html,
   body {
     height: auto;
@@ -113,7 +113,7 @@
 
   .headline-section {
     position: relative;
-    height: 90vh;
+    height: 94vh;
     width: 100%;
     margin: -1px auto;
     border-bottom-left-radius: 5rem;
@@ -246,7 +246,14 @@
     height: 20%;
   }
 
-  .works-section {
+  .desk-works-section {
+    position: relative;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 8% auto;
     padding: 0 8%;
     gap: 62px;
@@ -408,11 +415,13 @@
   .popup-tech-info {
     width: auto;
     position: relative;
+    gap: 0.5rem;
   }
 
   ul.popup-pr-techs {
     flex-wrap: wrap;
     gap: 8px;
+    height: auto;
   }
 
   .popup-action-btns {
@@ -724,6 +733,8 @@
   @media screen and (min-width: 768px) {
     .mobile-menu-icon-wrapper,
     .primary-text-br,
+    .mob-works-section,
+    .mob-modal-popup,
     .indicator {
       display: none;
     }
@@ -820,7 +831,7 @@
       background-position: center;
     }
 
-    .works-section {
+    .desk-works-section {
       height: auto;
       width: 82%;
       margin: 8% auto;
@@ -902,7 +913,17 @@
       width: 30rem;
     }
 
-    .modal-popup {
+    .desk-modal-popup {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: auto;
+      margin: 0 auto;
+      padding: 0;
+      z-index: 99;
+      visibility: hidden;
       width: 100%;
       background: rgba(194, 200, 209, 0.85);
     }
@@ -915,44 +936,46 @@
     .popup-title {
       height: 3rem;
     }
-  
+
     .popup-pr-title {
       font-size: 1.7rem;
     }
-  
+
     ul.popup-pr-type {
       font-weight: 600;
       font-size: 1rem;
       line-height: 24px;
     }
-  
+
     .popup-portfolio-img {
       width: 100%;
       height: auto;
       scale: 1;
     }
-  
+
     .popup-portfolio-img:hover {
       scale: 1.01;
     }
-  
+
     .popup-details {
       gap: 0.8rem;
     }
-  
+
     .popup-pr-desc {
       font-size: 16px;
     }
-  
+
     ul.popup-pr-techs {
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 8px;
+      height: auto;
     }
-  
+
     .popup-action-btns {
       justify-content: center;
       align-items: center;
       gap: 0.6rem;
+      margin-left: -0.5rem;
     }
   }
 }
