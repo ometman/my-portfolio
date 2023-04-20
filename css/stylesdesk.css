@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
 @media screen and (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+  
   html,
   body {
     height: auto;
@@ -29,7 +33,10 @@
   }
 
   .header {
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     width: auto;
     height: 4rem;
     padding: 0 10%;
@@ -39,6 +46,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    z-index: 20;
   }
 
   .logo {
@@ -250,7 +258,6 @@
     height: auto;
     padding: 16px;
     margin: 0 auto;
-    padding: 14px;
     flex-direction: row;
   }
 
@@ -313,44 +320,105 @@
   }
 
   .pr-tag {
-    padding: 4px 8px;
+    padding: 4px 10px;
   }
-
-  /* .pr-call-to-action-box,
-  .about-resume-action-box {
-    position: relative;
-    margin: 0;
-    padding: 4px 0 0 0;
-    width: auto;
-    height: auto;
-    flex: none;
-    flex-grow: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    order: 4;
-  } */
 
   .pr-call-to-action-box {
     margin: 2% 0;
   }
-
-  /* .pr-call-to-action-button,
-  .about-resume-action-button {
-    color: #0f27ff;
-    margin: 0 auto;
-    text-align: center;
-  } */
-
-  /* .about-resume-action-button {
-    font-size: 16px !important;
-  } */
 
   .pr-call-to-action-button:link,
   .about-resume-action-button:link {
     height: 40px;
     font-size: 16px;
     padding: 8px;
+  }
+
+  .modal-popup {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    background: rgba(194, 200, 209, 0.85);
+    z-index: 99;
+  }
+
+  .popup-card {
+    height: 85vh;
+    margin: 3rem 4rem auto 4rem;
+    padding: 0.8rem 0.6rem 0.6rem;
+    gap: 0.6rem;
+  }
+
+  .popup-title {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    order: 0;
+  }
+
+  .popup-pr-title {
+    font-size: 32px;
+  }
+
+  .popup-close-btn {
+    order: 1;
+  }
+
+  .popup-toggle {
+    font-size: 2rem;
+    height: 2rem;
+  }
+
+  ul.popup-pr-type {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .popup-portfolio-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .popup-portfolio-img:hover {
+    scale: 1.03;
+  }
+
+  .popup-details {
+    padding: 0;
+    width: 100%;
+    flex-direction: row;
+    gap: 0.8rem;
+  }
+
+  .popup-pr-desc {
+    width: auto;
+    position: relative;
+  }
+
+  .popup-tech-info {
+    width: auto;
+    position: relative;
+  }
+
+  ul.popup-pr-techs {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .popup-action-btns {
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
   }
 
   .about-me-section {
@@ -654,7 +722,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    .m-menu-icon-wrapper,
+    .mobile-menu-icon-wrapper,
     .primary-text-br,
     .indicator {
       display: none;
@@ -832,6 +900,59 @@
     #email,
     #message {
       width: 30rem;
+    }
+
+    .modal-popup {
+      width: 100%;
+      background: rgba(194, 200, 209, 0.85);
+    }
+
+    .popup-card {
+      margin: 4rem 10rem;
+      padding: 0.8rem 1rem 1rem;
+    }
+
+    .popup-title {
+      height: 3rem;
+    }
+  
+    .popup-pr-title {
+      font-size: 1.7rem;
+    }
+  
+    ul.popup-pr-type {
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 24px;
+    }
+  
+    .popup-portfolio-img {
+      width: 100%;
+      height: auto;
+      scale: 1;
+    }
+  
+    .popup-portfolio-img:hover {
+      scale: 1.01;
+    }
+  
+    .popup-details {
+      gap: 0.8rem;
+    }
+  
+    .popup-pr-desc {
+      font-size: 16px;
+    }
+  
+    ul.popup-pr-techs {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  
+    .popup-action-btns {
+      justify-content: center;
+      align-items: center;
+      gap: 0.6rem;
     }
   }
 }
