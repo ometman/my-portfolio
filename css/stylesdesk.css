@@ -479,7 +479,7 @@
   .about-me-section {
     position: relative;
     margin: 0 auto;
-    padding: 5%;
+    padding: 5% 5% 16% 5%;
     width: auto;
     height: auto;
     display: grid;
@@ -850,11 +850,37 @@
     color: #0f27ff;
   }
 
+  .indicator {
+    padding: 0 0 1.8rem 0;
+    background-color: #0016df;
+    margin-top: -4rem;
+    width: auto;
+    height: 10%;
+  }
+
+  #email-error {
+    order: 0;
+    position: relative;
+    height: 1.7rem;
+    margin: 0 auto;
+    padding-top: 0.5rem;
+    width: 60%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1rem;
+    color: red;
+    text-align: center;
+    background-color: #fff;
+    border: solid 1.5px #6070ff;
+    border-radius: 0.2rem;
+    visibility: visible;
+  }
+
   @media screen and (min-width: 768px) {
     .mobile-menu-icon-wrapper,
     .primary-text-br,
     .mob-works-section,
-    .indicator {
+    .indicator-bar {
       display: none;
     }
   }
@@ -1026,6 +1052,7 @@
     .contact-me-section {
       background-position: center;
       background-size: 80%;
+      padding: 114px 24px 32px 24px;
     }
 
     .contact-instruction {
@@ -1041,6 +1068,15 @@
     #email,
     #message {
       width: 30rem;
+    }
+
+    .indicator {
+      margin: -1rem 0 1.5rem 0;
+    }
+
+    #email-error {
+      width: 30%;
+      font-size: 1.1rem;
     }
   }
 }
