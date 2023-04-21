@@ -83,6 +83,7 @@ Using Figma design, the coding work was done with visual studio code and codes w
 - **About Myself, the Developer, Section**
 - **Contact Section**
 - **Viewable on mobile and desktop**
+- **Project modals to view details**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -90,8 +91,6 @@ Using Figma design, the coding work was done with visual studio code and codes w
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-A live demo link is coming up soon.
 
 See a live demo at the link below:
 
@@ -188,9 +187,8 @@ Any web hosting service. Example: gcloud, aws etc
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- 1. **Project Details Modals**
-- 2. **Client-side Form Validation**
-- 3. **In-Browser Data Preservation**
+- 1. **Client-side Form Validation**
+- 2. **In-Browser Data Preservation**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
