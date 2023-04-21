@@ -162,7 +162,7 @@
                             below. Items marked with asterisk (*) are required.
                         </p>
                     <!--contact form begins here-->
-                        <form id="contact-form" name="contact-form" action="https://formspree.io/f/xqkozzva" method="post">
+                        <form id="contact-form" onload="formSet()"  name="contact-form" action="https://formspree.io/f/xqkozzva" method="post">
                             <ul class="contact-form-items">
                                 <li class="sender-name">
                                    <label for="username" class="username-label">
@@ -194,13 +194,18 @@
                         </form>
                         <!--end of form -->
                     </section>
-                    <!--home indicator light-->
+
                     <section class="indicator">
+                        <!--form error indicate onsubmit-->
+                        <p id="email-error" class="email-error">
+                            Email invalid; Please enter email in lowercase
+                        </p>
+                        <!--indicator bar-->
                         <hr class="indicator-bar">
                     </section>
                 </footer> 
+            <script src="./js/form-data.js"></script>
             <script src="./js/modal.js"></script>
             <script src="./js/main.js"></script>
-            
     </body>
 </html>
