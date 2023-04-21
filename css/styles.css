@@ -862,7 +862,7 @@
     background-color: #fff;
     border: solid 1.5px #6070ff;
     border-radius: 0.2rem;
-    visibility: visible;
+    visibility: hidden;
   }
 
   .indicator-bar {
