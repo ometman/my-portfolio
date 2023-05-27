@@ -222,8 +222,8 @@
   }
 
   .popup-card {
-    height: 85vh;
-    margin: 3rem 4rem auto 4rem;
+    height: auto;
+    margin: 3rem 10rem auto 10rem;
     padding: 0.8rem 0.6rem 0.6rem;
     gap: 0.6rem;
   }
@@ -260,7 +260,6 @@
   .popup-pr-photo {
     position: relative;
     width: 100%;
-    height: 88%;
     order: 2;
     padding: 0;
     display: flex;
@@ -274,7 +273,7 @@
   }
 
   .popup-portfolio-img:hover {
-    scale: 1.03;
+    scale: 1.01;
   }
 
   .popup-details {
@@ -282,19 +281,18 @@
     width: 100%;
     flex-direction: row;
     gap: 0.8rem;
-    margin-top: -4%;
   }
 
   .popup-pr-desc {
-    width: 75%;
+    width: 60%;
     position: relative;
   }
 
   .popup-tech-info {
-    width: 25%;
+    width: 40%;
     position: relative;
     margin: 0 auto;
-    padding: 5% 5% 16% 5%;
+    /* padding:  2% 16% 2%; */
     gap: 0.5rem;
   }
 
@@ -829,7 +827,7 @@
     #email-error {
       width: 30%;
       font-size: 1.1rem;
-
+    }
       .desk-modal-popup {
         position: fixed;
         top: 0;
@@ -848,6 +846,7 @@
       .popup-card {
         margin: 4rem 10rem;
         padding: 0.8rem 1rem 1rem;
+        height: 90vh;
       }
 
       .popup-title {

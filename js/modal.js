@@ -9,14 +9,14 @@ const deskModalPopup = document.querySelector('#desk-modal-popup');
 // creating js object
 const worksObj = {
   card1: {
-    featuredImg: ['./images/photos/portfolio-pic-1.png', './images/photos/portfolio-pic-5.png'],
-    title: ['Tonic', 'Tonic'],
-    type: ['CANOPY', 'Backend', '2015'],
-    description: ['A daily selection of privately personalised carded reads; no accounts or sign-ups required. A daily selection of privately personalised carded reads; no accounts or sign-ups required.',
-      'A daily selection of privately personalised carded reads; no accounts or sign-ups required.',
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+    featuredImg: ['./images/photos/portfolio-pic-5.png', './images/photos/portfolio-pic-5.png'],
+    title: ['Capstone', 'Capstone'],
+    type: ['CONFERENCE', 'Frontend', '2023'],
+    description: ['An up-coming conference, with conference logo, title and schedule.',
+      'An up-coming conference, with conference logo, title and schedule. It includes details of the speakers, program and registration.',
+      'This project is about an up-coming conference. It has conference logo, title and schedule. It includes details of the speakers, program and registration. It employs HTML, CSS, JavaScript, Bootstrap and Design UI technologies.',
     ],
-    technologies: ['Html', 'Css', 'Javascript', 'Ruby on rails', 'Ruby', 'Github', 'Bootraps'],
+    technologies: ['Html', 'Css', 'JavaScript', 'Github', 'Bootraps'],
     details: 'See more',
     liveLink: 'See live',
     sourceLink: 'Source',
@@ -410,11 +410,11 @@ function showMobPopup(card) {
                 </ul>
                 <hr class="popup-divider">
                 <div class="pr-call-to-action-box popup-action-btns">
-                    <a id="popup-livelink" href="https://ometman.github.io/my-portfolio" class="live-source-btns pr-call-to-action-button">
+                    <a id="popup-livelink" href="https://ometman.github.io/first-capstone" class="live-source-btns pr-call-to-action-button">
                         <p>${mobCard.liveLink}</p>
                         <img src="./images/icons/live-icon.png" alt="a live icon">
                     </a>
-                    <a id="popup-sourcelink" href="https://github.com/ometman/my-portfolio.git" class="live-source-btns pr-call-to-action-button">
+                    <a id="popup-sourcelink" href="https://github.com/ometman/first-capstone" class="live-source-btns pr-call-to-action-button">
                         <p>${mobCard.sourceLink}</p>
                         <img class="github-icon-trim" src="./images/icons/github-icon.png" alt="a github icon">
                     </a>
@@ -459,7 +459,7 @@ function showDeskPopup(card) {
               ${deskCard.title[1]}
           </h2>
           <a id="popup-close-btn">
-              <span class="popup-toggle">x</span>
+              <span class="popup-toggle">&times;</span>
           </a>
       </div>
       <ul class="popup-pr-type">
@@ -485,11 +485,11 @@ function showDeskPopup(card) {
               </ul>
               <hr class="popup-divider">
               <div class="pr-call-to-action-box popup-action-btns">
-                  <a id="popup-livelink" href="https://ometman.github.io/my-portfolio" class="live-source-btns pr-call-to-action-button">
+                  <a id="popup-livelink" href="https://ometman.github.io/first-capstone" class="live-source-btns pr-call-to-action-button">
                       <p>${deskCard.liveLink}</p>
                       <img src="./images/icons/live-icon.png" alt="a live icon">
                   </a>
-                  <a id="popup-sourcelink" href="https://github.com/ometman/my-portfolio.git" class="live-source-btns pr-call-to-action-button">
+                  <a id="popup-sourcelink" href="https://github.com/ometman/first-capstone" class="live-source-btns pr-call-to-action-button">
                       <p>${deskCard.sourceLink}</p>
                       <img class="github-icon-trim" src="./images/icons/github-icon.png" alt="a github icon">
                   </a>
