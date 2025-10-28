@@ -35,41 +35,32 @@ const skillsToggleBtn = document.querySelector('#skills-toggle-btn');
 const skillsToggleIcon = document.querySelector('#skills-toggle-icon');
 const skillsList = document.querySelector('#skills');
 
+// Reusable toggle function
+function toggleSection(list, icon) {
+  const currentDisplay = window.getComputedStyle(list).display;
+  if (currentDisplay === 'none') {
+    list.style.display = 'flex';
+    icon.src = './images/icons/button-icon-dn.png';
+  } else {
+    list.style.display = 'none';
+    icon.src = './images/icons/button-icon-rt.png';
+  }
+}
+
 // Toggle function for Languages
 langToggleBtn.addEventListener('click', (e) => {
   e.preventDefault();
-  const currentDisplay = window.getComputedStyle(languagesList).display;
-  if (currentDisplay === 'none') {
-    languagesList.style.display = 'flex';
-    langToggleIcon.src = './images/icons/button-icon-dn.png';
-  } else {
-    languagesList.style.display = 'none';
-    langToggleIcon.src = './images/icons/button-icon-rt.png';
-  }
+  toggleSection(languagesList, langToggleIcon);
 });
 
 // Toggle function for Frameworks
 frameworksToggleBtn.addEventListener('click', (e) => {
   e.preventDefault();
-  const currentDisplay = window.getComputedStyle(frameworksList).display;
-  if (currentDisplay === 'none') {
-    frameworksList.style.display = 'flex';
-    frameworksToggleIcon.src = './images/icons/button-icon-dn.png';
-  } else {
-    frameworksList.style.display = 'none';
-    frameworksToggleIcon.src = './images/icons/button-icon-rt.png';
-  }
+  toggleSection(frameworksList, frameworksToggleIcon);
 });
 
 // Toggle function for Skills
 skillsToggleBtn.addEventListener('click', (e) => {
   e.preventDefault();
-  const currentDisplay = window.getComputedStyle(skillsList).display;
-  if (currentDisplay === 'none') {
-    skillsList.style.display = 'flex';
-    skillsToggleIcon.src = './images/icons/button-icon-dn.png';
-  } else {
-    skillsList.style.display = 'none';
-    skillsToggleIcon.src = './images/icons/button-icon-rt.png';
-  }
+  toggleSection(skillsList, skillsToggleIcon);
 });
