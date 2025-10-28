@@ -767,7 +767,7 @@
     width: 100%;
     height: auto;
     margin: 0;
-    padding: 0;
+    padding: 24px 0;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -862,7 +862,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    gap: 16px;
   }
 
   .lang-img {
@@ -889,7 +889,7 @@
     flex-wrap: wrap;
     float: none;
     list-style: none;
-    padding: 8px 0;
+    padding: 12px 0;
   }
 
   .js-lang {
@@ -914,12 +914,12 @@
 
   .skills-line1 {
     order: 2;
-    margin: -18px auto;
+    margin: 8px auto;
   }
 
   .skills-line2 {
     order: 4;
-    margin: -18px auto;
+    margin: 8px auto;
   }
 
   footer {
